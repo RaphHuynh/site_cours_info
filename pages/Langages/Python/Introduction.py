@@ -1,14 +1,6 @@
 import streamlit as st
 import config 
 
-config.init_session_state()
-
-# Configuration de la page
-st.set_page_config(page_title="Introduction à Python", page_icon="🤖", layout="wide")
-
-# Afficher la barre du haut avec les boutons
-config.show_top_bar()
-
 # --- Contenu de la page ---
 content = {
     "fr": {
