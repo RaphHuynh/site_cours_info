@@ -18,6 +18,9 @@ def show_sidebar():
                     url_path="home"),
         ],
         "🤖 Intelligence Artificielle / AI": [
+                st.Page("pages/Intro_ia.py",
+                    title="Introduction" if st.session_state.lang == "en" else "Introduction",
+                    url_path="ia-symbolique"),
                 st.Page("pages/IA_Symbolique/Introduction.py", 
                     title="Symbolic AI " if st.session_state.lang == "en" else "IA Symbolique", 
                     url_path="ia-symbolique-introduction"),

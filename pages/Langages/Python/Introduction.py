@@ -1,5 +1,4 @@
 import streamlit as st
-import config 
 
 # --- Contenu de la page ---
 content = {
