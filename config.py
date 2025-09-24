@@ -43,6 +43,12 @@ def show_sidebar():
                     title="Python Introduction" if st.session_state.lang == "en" else "Python", 
                     url_path="python-introduction"),
         ],
+        
+        "🎓 Guides des bonnes pratiques" : [
+                st.Page("pages/Guides_bonnes_pratiques/Introduction.py", 
+                    title="Best Practices Guide" if st.session_state.lang == "en" else "Guide des bonnes pratiques", 
+                    url_path="best-practices-introduction"),
+        ],
     })
 
     pg.run()
